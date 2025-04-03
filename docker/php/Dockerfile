@@ -8,3 +8,4 @@ RUN echo 'memory_limit = 1G' >> /usr/local/etc/php/conf.d/docker-php-memlimit.in
 RUN rm /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
 
 WORKDIR /src
+/PHPCompatibility/Util/Tests export-ignore
